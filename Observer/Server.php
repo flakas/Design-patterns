@@ -5,6 +5,7 @@ require_once("Subject.php");
 class Server implements Subject {
 
     private $observers = array();
+    private $lastState;
 
     /**
      * Registers observer to the subject
@@ -44,6 +45,7 @@ class Server implements Subject {
      * @access public
      */
     public function notify($message) {
+        $this->lastState = $message;
         foreach($this->observers as $observer) {
             $observer->notify($message);
         }
