@@ -43,4 +43,4 @@ class Logger
     public function get_logs() {
         return $this->logs;
     }
-}
+};
