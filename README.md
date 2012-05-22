@@ -8,3 +8,4 @@ List of implemented patterns
 ----------------------------
 
 - Observer
+- Singleton
