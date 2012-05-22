@@ -11,7 +11,6 @@ class Logger
 
     private function __construct() {
         $logs = array();
-        $this->instance = $this;
     }
 
     /**
