@@ -9,3 +9,4 @@ List of implemented patterns
 
 - Observer
 - Singleton
+- Factory
